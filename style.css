@@ -1,0 +1,101 @@
+.app{
+    width: 500px;
+    padding:10px;
+    height: 500px;
+    margin: 100px auto 0; 
+}
+
+header{
+    background-color: red;
+    padding: 10px;
+}
+
+header .header_content{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+header .list{
+    text-align: center;
+} 
+
+.list{
+    color: white;
+    font-size: 1.5em;
+}
+
+header input{
+    height: 30px;
+    flex: 1;
+}
+
+.content{
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid red;
+    overflow: auto;
+    position: relative;
+}
+
+.content ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.content li span{
+    cursor: pointer;
+}
+
+#modif{
+    font-size: 1em;
+    color: rgb(214, 207, 248);
+    text-transform: uppercase;
+}
+
+button{
+    width: 80px;
+    height: 20px;
+    background-color: red;
+    cursor: pointer;
+}
+
+header .deleteAll{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: seashell;
+    margin-right: 5px;
+    margin-top: 0px;
+    cursor: pointer;
+    transition: 0.9s ease-in-out;
+}
+
+header .add{
+    width: 100px;
+    height: 30px;
+    background-color: seashell;
+    margin-left: 5px;
+    margin-top: 0px;
+    cursor: pointer;
+    border-radius: 20px;  
+    transition: 0.9s ease-in-out;
+}
+
+header .add:hover{
+    box-shadow: 5px 5px 5px 5px yellowgreen;
+    transition: 0.9s ease-in-out;
+}
+
+.deleteAll:hover{
+    box-shadow: 5px 5px 5px 5px yellowgreen;
+    transition: 0.9s ease-in-out;
+}
+
+
+
+
+
+
